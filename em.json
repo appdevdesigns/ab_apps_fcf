@@ -440,8 +440,6 @@
           "f6afd81b-7327-4b19-aa55-ddbae3cb8a11",
           "855e4669-3b81-4b50-8ff6-4d270a6d39af",
           "04606dae-a3da-4cf8-851f-15dc9dc798df",
-          "87aaf138-3991-4933-aba7-b8d921342a02",
-          "f748a738-1a28-49b1-b3c7-3123835ac5ba",
           "ea163bd3-0af2-408e-b539-da535df381ff",
           "0a442254-1aba-4f12-a6d5-10e4e40a32d1",
           "818f76c9-5b93-4aec-9577-e534f7b90a97",
@@ -458,7 +456,8 @@
           "44f50fd4-716b-4af1-af25-39cabca41b9f",
           "8c7d27b5-1d29-4482-acb3-26f857afc668",
           "eb5aacc7-2a08-4853-b3e3-8b82bbe3b34b",
-          "5032517e-9771-4133-8108-d2b96a83e4a3"
+          "5032517e-9771-4133-8108-d2b96a83e4a3",
+          "b037e390-7290-47ea-bfef-82b30cd38d79"
         ],
         "createdInAppID": "ab7ab867-549a-498f-a1ff-a9e2f97dd525",
         "objectWorkspaceViews": {
@@ -481,7 +480,7 @@
         }
       },
       "createdAt": "2020-12-03T05:38:20.000Z",
-      "updatedAt": "2021-06-04T04:44:34.000Z"
+      "updatedAt": "2021-06-17T03:35:43.000Z"
     },
     {
       "id": "27ef9a29-c811-4c2c-a32f-c00d07115ae6",
@@ -822,77 +821,6 @@
         ]
       },
       "createdAt": "2020-12-03T05:52:22.000Z",
-      "updatedAt": "2021-06-04T04:44:34.000Z"
-    },
-    {
-      "id": "87aaf138-3991-4933-aba7-b8d921342a02",
-      "name": "EM->District",
-      "type": "field",
-      "json": {
-        "id": "87aaf138-3991-4933-aba7-b8d921342a02",
-        "type": "field",
-        "key": "connectObject",
-        "icon": "external-link",
-        "isImported": "0",
-        "columnName": "District",
-        "settings": {
-          "showIcon": 1,
-          "required": 0,
-          "unique": 0,
-          "validationRules": "[]",
-          "linkObject": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "linkType": "one",
-          "linkViaType": "many",
-          "linkColumn": "f748a738-1a28-49b1-b3c7-3123835ac5ba",
-          "isSource": 1,
-          "isCustomFK": 0,
-          "indexField": "",
-          "indexField2": "",
-          "width": 120
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "District"
-          }
-        ]
-      },
-      "createdAt": "2020-12-03T05:55:45.000Z",
-      "updatedAt": "2021-06-04T04:44:34.000Z"
-    },
-    {
-      "id": "f748a738-1a28-49b1-b3c7-3123835ac5ba",
-      "name": "EM->District",
-      "type": "field",
-      "json": {
-        "type": "field",
-        "key": "connectObject",
-        "icon": "external-link",
-        "isImported": "0",
-        "columnName": "District",
-        "settings": {
-          "showIcon": 1,
-          "linkObject": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "linkType": "many",
-          "linkViaType": "one",
-          "isCustomFK": 0,
-          "indexField": "",
-          "indexField2": "",
-          "isSource": 0,
-          "width": 120,
-          "required": 0,
-          "unique": 0,
-          "linkColumn": "87aaf138-3991-4933-aba7-b8d921342a02"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "EM-Child"
-          }
-        ],
-        "id": "f748a738-1a28-49b1-b3c7-3123835ac5ba"
-      },
-      "createdAt": "2020-12-03T05:55:46.000Z",
       "updatedAt": "2021-06-04T04:44:34.000Z"
     },
     {
@@ -6559,7 +6487,8 @@
           "bc916574-d63c-438e-930b-5de22b2f4850",
           "42c95612-882b-463c-b6a9-718e1337de6d",
           "c32604ef-5bf5-463e-ae99-bb308b36664b",
-          "85866909-96ea-459a-92ad-505a93876fca"
+          "85866909-96ea-459a-92ad-505a93876fca",
+          "7c9f9f8b-6f2e-4214-b790-29635d5790b2"
         ],
         "createdInAppID": "ab7ab867-549a-498f-a1ff-a9e2f97dd525",
         "objectWorkspaceViews": {
@@ -6582,7 +6511,43 @@
         }
       },
       "createdAt": "2021-03-25T05:10:39.000Z",
-      "updatedAt": "2021-06-04T04:44:35.000Z"
+      "updatedAt": "2021-06-17T03:33:32.000Z"
+    },
+    {
+      "id": "69bb3f3e-b88b-496e-864f-13f0012d98d2",
+      "name": "EM-Spiritual Journey->Child",
+      "type": "field",
+      "json": {
+        "id": "69bb3f3e-b88b-496e-864f-13f0012d98d2",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": "0",
+        "columnName": "Child",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "linkType": "one",
+          "linkViaType": "one",
+          "linkColumn": "165bd877-5f2d-4620-8c52-688bdfd00716",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Child"
+          }
+        ]
+      },
+      "createdAt": "2021-03-25T05:11:16.000Z",
+      "updatedAt": "2021-06-04T04:44:34.000Z"
     },
     {
       "id": "6afa96a5-14a4-4a21-b195-37e6896b460a",
@@ -6899,40 +6864,33 @@
       "updatedAt": "2021-06-04T04:44:34.000Z"
     },
     {
-      "id": "69bb3f3e-b88b-496e-864f-13f0012d98d2",
-      "name": "EM-Spiritual Journey->Child",
+      "name": "EM-Spiritual Journey->serveInChurch",
       "type": "field",
       "json": {
-        "id": "69bb3f3e-b88b-496e-864f-13f0012d98d2",
         "type": "field",
-        "key": "connectObject",
-        "icon": "external-link",
+        "key": "boolean",
+        "icon": "check-square-o",
         "isImported": "0",
-        "columnName": "Child",
+        "columnName": "serveInChurch",
         "settings": {
           "showIcon": 1,
           "required": 0,
           "unique": 0,
           "validationRules": "[]",
-          "linkObject": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "linkType": "one",
-          "linkViaType": "one",
-          "linkColumn": "165bd877-5f2d-4620-8c52-688bdfd00716",
-          "isSource": 1,
-          "isCustomFK": 0,
-          "indexField": "",
-          "indexField2": "",
-          "width": 100
+          "default": 0,
+          "width": 650
         },
         "translations": [
           {
             "language_code": "en",
-            "label": "Child"
+            "label": "Does the child help serve in Church or ministry in some way ?"
           }
-        ]
+        ],
+        "id": "7c9f9f8b-6f2e-4214-b790-29635d5790b2"
       },
-      "createdAt": "2021-03-25T05:11:16.000Z",
-      "updatedAt": "2021-06-04T04:44:34.000Z"
+      "id": "7c9f9f8b-6f2e-4214-b790-29635d5790b2",
+      "createdAt": "2021-06-17T03:33:32.743Z",
+      "updatedAt": "2021-06-17T03:33:32.743Z"
     },
     {
       "id": "44f50fd4-716b-4af1-af25-39cabca41b9f",
@@ -7091,6 +7049,36 @@
       },
       "createdAt": "2021-05-03T04:53:41.000Z",
       "updatedAt": "2021-06-04T04:44:34.000Z"
+    },
+    {
+      "name": "EM->District",
+      "type": "field",
+      "json": {
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": "0",
+        "columnName": "District",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "supportMultilingual": 0,
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "District"
+          }
+        ],
+        "id": "b037e390-7290-47ea-bfef-82b30cd38d79"
+      },
+      "id": "b037e390-7290-47ea-bfef-82b30cd38d79",
+      "createdAt": "2021-06-17T03:35:43.291Z",
+      "updatedAt": "2021-06-17T03:35:43.291Z"
     },
     {
       "id": "d10ba98c-9e6f-48c5-962f-19c39a5b6e92",
@@ -12961,7 +12949,9 @@
           "bc3981bd-68fe-4aae-8bcf-6cff63aaed12",
           "ea3d854e-1b3e-4cae-be07-bb7936b57bda",
           "d6184a6e-829b-42ad-a1b4-d6b361d6283e",
-          "c991fe4f-d6d1-4888-aa88-2b4169746c31"
+          "09df4494-ac47-460c-8c61-f8b97ca91405",
+          "955a0b75-cc5b-4035-9a71-386ed0d8bda2",
+          "98122513-cb9c-4a1e-956a-31a0fb0dbf73"
         ],
         "position": {
           "dx": "1",
@@ -12970,7 +12960,7 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:07:05.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:54.000Z"
     },
     {
       "id": "00582791-5e77-4252-92be-04d17671909d",
@@ -13001,7 +12991,7 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:45:12.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:53.000Z"
     },
     {
       "id": "59499aca-619f-4b98-be86-d50605ec4c00",
@@ -13033,7 +13023,7 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:45:12.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:53.000Z"
     },
     {
       "id": "783f9fb2-adc0-4b30-b40a-83d94953fd99",
@@ -13065,7 +13055,7 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:45:12.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:53.000Z"
     },
     {
       "id": "bc3981bd-68fe-4aae-8bcf-6cff63aaed12",
@@ -13097,7 +13087,7 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:45:12.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:53.000Z"
     },
     {
       "id": "ea3d854e-1b3e-4cae-be07-bb7936b57bda",
@@ -13145,7 +13135,7 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:45:31.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:53.000Z"
     },
     {
       "id": "d6184a6e-829b-42ad-a1b4-d6b361d6283e",
@@ -13198,28 +13188,27 @@
         "isRoot": "false"
       },
       "createdAt": "2020-12-16T04:45:31.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "updatedAt": "2021-06-17T03:39:54.000Z"
     },
     {
-      "id": "c991fe4f-d6d1-4888-aa88-2b4169746c31",
-      "name": "Add Child.form.button",
+      "id": "09df4494-ac47-460c-8c61-f8b97ca91405",
+      "name": "Add Child.form.textbox",
       "type": "view",
       "json": {
-        "id": "c991fe4f-d6d1-4888-aa88-2b4169746c31",
+        "id": "09df4494-ac47-460c-8c61-f8b97ca91405",
         "type": "view",
-        "key": "button",
-        "icon": "square",
-        "name": "Add Child.form.button",
+        "key": "textbox",
+        "icon": "i-cursor",
+        "name": "Add Child.form.textbox",
         "settings": {
-          "includeSave": "true",
-          "includeCancel": "false",
-          "includeReset": "false",
-          "isDefault": "false"
+          "type": "single",
+          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "fieldId": "b037e390-7290-47ea-bfef-82b30cd38d79"
         },
         "translations": [
           {
             "language_code": "en",
-            "label": "Add Child.form.button"
+            "label": "Add Child.form.textbox"
           }
         ],
         "position": {
@@ -13230,8 +13219,84 @@
         },
         "isRoot": "false"
       },
-      "createdAt": "2020-12-16T04:47:48.000Z",
-      "updatedAt": "2021-06-04T04:47:12.000Z"
+      "createdAt": "2021-06-17T03:36:20.000Z",
+      "updatedAt": "2021-06-17T03:39:54.000Z"
+    },
+    {
+      "id": "955a0b75-cc5b-4035-9a71-386ed0d8bda2",
+      "name": "Add Child.form.button",
+      "type": "view",
+      "json": {
+        "id": "955a0b75-cc5b-4035-9a71-386ed0d8bda2",
+        "type": "view",
+        "key": "button",
+        "icon": "square",
+        "name": "Add Child.form.button",
+        "settings": {
+          "includeSave": "true",
+          "includeCancel": "false",
+          "includeReset": "false",
+          "isDefault": "true"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Child.form.button"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "y": "8",
+          "x": "0"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:36:20.000Z",
+      "updatedAt": "2021-06-17T03:39:54.000Z"
+    },
+    {
+      "id": "98122513-cb9c-4a1e-956a-31a0fb0dbf73",
+      "name": "Add Child.form.selectsingle",
+      "type": "view",
+      "json": {
+        "id": "98122513-cb9c-4a1e-956a-31a0fb0dbf73",
+        "type": "view",
+        "key": "selectsingle",
+        "icon": "list-ul",
+        "name": "Add Child.form.selectsingle",
+        "settings": {
+          "options": [
+            {
+              "id": "Male",
+              "value": "Male",
+              "hex": "#3F51B5"
+            },
+            {
+              "id": "Female",
+              "value": "Female",
+              "hex": "#E91E63"
+            }
+          ],
+          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "fieldId": "5032517e-9771-4133-8108-d2b96a83e4a3"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Child.form.selectsingle"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "x": "0",
+          "y": "7"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:36:57.000Z",
+      "updatedAt": "2021-06-17T03:39:54.000Z"
     },
     {
       "id": "8f10499c-7773-4636-9487-2c6aef692083",
@@ -13827,9 +13892,6 @@
           }
         ],
         "viewIDs": [
-          "ced806af-7e1e-4259-9f5a-d231a550bfe8",
-          "bcd22a5f-6b68-46c8-a2aa-83ade2ea3499",
-          "c9731f92-6d50-42bb-94ea-fafe4f40650f",
           "1a70b8aa-8b98-4d42-97f3-b98d2b8d93ab",
           "a84856c9-ac19-42e0-b1bb-ea99680dcb84",
           "aca6456b-1797-4d90-a9b1-85aa5bf4541c",
@@ -13838,7 +13900,9 @@
           "7f92af14-6ca5-4926-a3de-6b70f67b3728",
           "5bdabd1c-a795-43ee-a185-1ff923c6941a",
           "1e5ee90d-aac6-4475-b01b-66b688068eb5",
-          "d0d190dc-1468-47bb-815d-63091d7dbd4f"
+          "d0d190dc-1468-47bb-815d-63091d7dbd4f",
+          "59da9f24-f94e-4d57-a5d7-5866b7f59217",
+          "e1d3629f-7f89-474d-b822-4400bdc92616"
         ],
         "position": {
           "dx": "1",
@@ -13849,112 +13913,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:28.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "ced806af-7e1e-4259-9f5a-d231a550bfe8",
-      "name": "Child Profile.detail.detailtext",
-      "type": "view",
-      "json": {
-        "id": "ced806af-7e1e-4259-9f5a-d231a550bfe8",
-        "type": "view",
-        "key": "detailtext",
-        "icon": "etsy",
-        "name": "Child Profile.detail.detailtext",
-        "settings": {
-          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "fieldId": "4b8d87ea-1c0e-4b3f-88cb-4eade7c093ee",
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "height": "0",
-          "labelWidth": "120"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Child Profile.detail.detailtext"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "4",
-          "x": "1"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "bcd22a5f-6b68-46c8-a2aa-83ade2ea3499",
-      "name": "Child Profile.detail.detailconnect",
-      "type": "view",
-      "json": {
-        "id": "bcd22a5f-6b68-46c8-a2aa-83ade2ea3499",
-        "type": "view",
-        "key": "detailconnect",
-        "icon": "list-ul",
-        "name": "Child Profile.detail.detailconnect",
-        "settings": {
-          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "fieldId": "87aaf138-3991-4933-aba7-b8d921342a02",
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "height": "0",
-          "labelWidth": "120"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Child Profile.detail.detailconnect"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "4",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "c9731f92-6d50-42bb-94ea-fafe4f40650f",
-      "name": "Child Profile.detail.detailtext",
-      "type": "view",
-      "json": {
-        "id": "c9731f92-6d50-42bb-94ea-fafe4f40650f",
-        "type": "view",
-        "key": "detailtext",
-        "icon": "etsy",
-        "name": "Child Profile.detail.detailtext",
-        "settings": {
-          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "fieldId": "04606dae-a3da-4cf8-851f-15dc9dc798df",
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "height": "0",
-          "labelWidth": "120"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Child Profile.detail.detailtext"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "3",
-          "x": "1"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "1a70b8aa-8b98-4d42-97f3-b98d2b8d93ab",
@@ -13983,13 +13942,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "2",
-          "x": "1"
+          "y": "5",
+          "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:56.000Z"
     },
     {
       "id": "a84856c9-ac19-42e0-b1bb-ea99680dcb84",
@@ -14018,13 +13977,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "1",
+          "y": "3",
           "x": "1"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "aca6456b-1797-4d90-a9b1-85aa5bf4541c",
@@ -14053,13 +14012,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "0",
-          "x": "1"
+          "y": "3",
+          "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "8697d329-8b70-4abe-9104-0d05af3ac7b7",
@@ -14088,13 +14047,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "3",
+          "y": "2",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "1ba6ee4b-c1d1-48f0-bbca-730fc50fcf3a",
@@ -14123,13 +14082,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "2",
-          "x": "0"
+          "y": "1",
+          "x": "1"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "7f92af14-6ca5-4926-a3de-6b70f67b3728",
@@ -14164,7 +14123,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "5bdabd1c-a795-43ee-a185-1ff923c6941a",
@@ -14200,16 +14159,18 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-19T03:53:37.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "1e5ee90d-aac6-4475-b01b-66b688068eb5",
       "name": "Child Profile.detail.detailtext",
       "type": "view",
       "json": {
+        "id": "1e5ee90d-aac6-4475-b01b-66b688068eb5",
         "type": "view",
         "key": "detailtext",
         "icon": "etsy",
+        "name": "Child Profile.detail.detailtext",
         "settings": {
           "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
           "fieldId": "eb5aacc7-2a08-4853-b3e3-8b82bbe3b34b",
@@ -14227,22 +14188,24 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": ""
+          "y": "4",
+          "x": "1"
         },
-        "isRoot": "false",
-        "id": "1e5ee90d-aac6-4475-b01b-66b688068eb5"
+        "isRoot": "false"
       },
       "createdAt": "2021-05-11T02:55:07.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "d0d190dc-1468-47bb-815d-63091d7dbd4f",
       "name": "Child Profile.detail.detailtext",
       "type": "view",
       "json": {
+        "id": "d0d190dc-1468-47bb-815d-63091d7dbd4f",
         "type": "view",
         "key": "detailtext",
         "icon": "etsy",
+        "name": "Child Profile.detail.detailtext",
         "settings": {
           "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
           "fieldId": "5032517e-9771-4133-8108-d2b96a83e4a3",
@@ -14260,13 +14223,82 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": ""
+          "y": "2",
+          "x": "1"
         },
-        "isRoot": "false",
-        "id": "d0d190dc-1468-47bb-815d-63091d7dbd4f"
+        "isRoot": "false"
       },
       "createdAt": "2021-05-11T02:55:09.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:41:57.000Z"
+    },
+    {
+      "id": "59da9f24-f94e-4d57-a5d7-5866b7f59217",
+      "name": "Child Profile.detail.detailtext",
+      "type": "view",
+      "json": {
+        "id": "59da9f24-f94e-4d57-a5d7-5866b7f59217",
+        "type": "view",
+        "key": "detailtext",
+        "icon": "etsy",
+        "name": "Child Profile.detail.detailtext",
+        "settings": {
+          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "fieldId": "b037e390-7290-47ea-bfef-82b30cd38d79",
+          "columnSpan": "1",
+          "rowSpan": "1",
+          "height": "0",
+          "labelWidth": "120"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Child Profile.detail.detailtext"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "y": "5",
+          "x": "1"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:37:29.000Z",
+      "updatedAt": "2021-06-17T03:41:57.000Z"
+    },
+    {
+      "id": "e1d3629f-7f89-474d-b822-4400bdc92616",
+      "name": "Child Profile.detail.detailtext",
+      "type": "view",
+      "json": {
+        "id": "e1d3629f-7f89-474d-b822-4400bdc92616",
+        "type": "view",
+        "key": "detailtext",
+        "icon": "etsy",
+        "settings": {
+          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "fieldId": "04606dae-a3da-4cf8-851f-15dc9dc798df",
+          "columnSpan": "1",
+          "rowSpan": "1",
+          "height": "0",
+          "labelWidth": "120"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Child Profile.detail.detailtext"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "y": "4",
+          "x": "0"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:41:54.000Z",
+      "updatedAt": "2021-06-17T03:41:57.000Z"
     },
     {
       "id": "00712d38-f149-43c0-8ff2-5e7dc568d78a",
@@ -14954,9 +14986,9 @@
           "columns": "1",
           "removable": "true",
           "movable": "true",
-          "labelPosition": "left",
+          "labelPosition": "top",
           "showLabel": "1",
-          "labelWidth": "400",
+          "labelWidth": "500",
           "height": "0",
           "dataviewID": "caba8eed-ba34-4e57-999c-f232672bad98",
           "gravity": [
@@ -14979,8 +15011,7 @@
           "9dd56bea-5aa3-48e7-a9cc-b801c25de04c",
           "ce0a5ba0-e18d-498d-8896-37d7dd22a47c",
           "3a8ce696-9234-4acb-9611-fd74f104c4ad",
-          "0133afd4-49f2-41dc-8179-cbc18a3d33a4",
-          "7147ed59-8ec7-4d6c-96d9-6e62f554eb37"
+          "0133afd4-49f2-41dc-8179-cbc18a3d33a4"
         ],
         "position": {
           "dx": "1",
@@ -14991,7 +15022,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:17.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:53.000Z"
     },
     {
       "id": "e37d1670-4043-4f74-95a7-b53011d0ecb5",
@@ -15026,7 +15057,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:27.000Z"
     },
     {
       "id": "b49d76d1-6760-42b7-958a-adf9d2817005",
@@ -15060,7 +15091,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:27.000Z"
     },
     {
       "id": "de102292-ae0f-40d2-839d-88fb6d3dea9e",
@@ -15095,7 +15126,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:27.000Z"
     },
     {
       "id": "caf7b49a-bb56-4e8d-8c45-ef8fd78efa72",
@@ -15129,7 +15160,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:27.000Z"
     },
     {
       "id": "de145bf3-b637-4599-a913-ae18cd0882b5",
@@ -15164,7 +15195,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:27.000Z"
     },
     {
       "id": "0d768fe3-561d-4bb5-9d83-399152976c92",
@@ -15198,7 +15229,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:28.000Z"
     },
     {
       "id": "9dd56bea-5aa3-48e7-a9cc-b801c25de04c",
@@ -15233,7 +15264,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:28.000Z"
     },
     {
       "id": "ce0a5ba0-e18d-498d-8896-37d7dd22a47c",
@@ -15267,7 +15298,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:28.000Z"
     },
     {
       "id": "3a8ce696-9234-4acb-9611-fd74f104c4ad",
@@ -15301,7 +15332,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:28.000Z"
     },
     {
       "id": "0133afd4-49f2-41dc-8179-cbc18a3d33a4",
@@ -15335,42 +15366,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "7147ed59-8ec7-4d6c-96d9-6e62f554eb37",
-      "name": "Sp Journey.detail.detailconnect",
-      "type": "view",
-      "json": {
-        "id": "7147ed59-8ec7-4d6c-96d9-6e62f554eb37",
-        "type": "view",
-        "key": "detailconnect",
-        "icon": "list-ul",
-        "name": "Sp Journey.detail.detailconnect",
-        "settings": {
-          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
-          "fieldId": "69bb3f3e-b88b-496e-864f-13f0012d98d2",
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "height": "0",
-          "labelWidth": "120"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Sp Journey.detail.detailconnect"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "0",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:46:28.000Z"
     },
     {
       "id": "75fe90f1-f806-4844-a376-d386612b4569",
@@ -17946,7 +17942,7 @@
         "myAppID": "ab7ab867-549a-498f-a1ff-a9e2f97dd525"
       },
       "createdAt": "2021-02-24T02:29:09.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:04.000Z"
     },
     {
       "id": "6e13f07a-911e-4ae2-9291-e76b9ce031d0",
@@ -17991,16 +17987,16 @@
           }
         ],
         "viewIDs": [
-          "25ff9879-6e70-42aa-9f05-00c08d9f538c",
           "e2a5df57-9a3b-46bd-bd55-4bdfa9594a1a",
           "728e1052-f0ff-471f-9b16-e68920b28373",
-          "e1c02c52-7021-4e2c-ba0f-22dcf5146fdb",
           "d0a8022e-1a7d-4a60-9a51-1e7ff536a250",
           "2d94ce1f-fe98-4e44-8680-3de068f5b038",
           "f0c1422b-9f44-4513-a1ec-9406c6c9d46c",
           "d76c99d6-cf3f-42e5-8f19-92ac5782c6fa",
           "9a0e39d4-43b4-4b69-9e88-0c7f20f5306a",
-          "74241994-f0ff-4a31-9ac4-57fb8821d048"
+          "429c14cb-51f2-4699-9c2f-73bf438ab4f1",
+          "47fbde72-2c29-49f6-841b-f28f41c2b55b",
+          "d3d78e2f-2fb2-44ae-810d-9230e9284151"
         ],
         "position": {
           "dx": "1",
@@ -18011,43 +18007,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:27.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "25ff9879-6e70-42aa-9f05-00c08d9f538c",
-      "name": "Edit Child.form.connect",
-      "type": "view",
-      "json": {
-        "id": "25ff9879-6e70-42aa-9f05-00c08d9f538c",
-        "type": "view",
-        "key": "connect",
-        "icon": "list-ul",
-        "name": "Edit Child.form.connect",
-        "settings": {
-          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "fieldId": "87aaf138-3991-4933-aba7-b8d921342a02",
-          "objectWorkspace": {
-            "filterConditions": {
-              "glue": "and"
-            }
-          }
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Edit Child.form.connect"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "8",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:29.000Z"
     },
     {
       "id": "e2a5df57-9a3b-46bd-bd55-4bdfa9594a1a",
@@ -18094,13 +18054,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "7",
+          "y": "6",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:13.000Z"
     },
     {
       "id": "728e1052-f0ff-471f-9b16-e68920b28373",
@@ -18142,44 +18102,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "6",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "e1c02c52-7021-4e2c-ba0f-22dcf5146fdb",
-      "name": "Edit Child.form.fieldreadonly",
-      "type": "view",
-      "json": {
-        "id": "e1c02c52-7021-4e2c-ba0f-22dcf5146fdb",
-        "type": "view",
-        "key": "fieldreadonly",
-        "icon": "calculator",
-        "name": "Edit Child.form.fieldreadonly",
-        "settings": {
-          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
-          "fieldId": "f6afd81b-7327-4b19-aa55-ddbae3cb8a11"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Edit Child.form.fieldreadonly"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
           "y": "5",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:13.000Z"
     },
     {
       "id": "d0a8022e-1a7d-4a60-9a51-1e7ff536a250",
@@ -18210,7 +18139,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:13.000Z"
     },
     {
       "id": "2d94ce1f-fe98-4e44-8680-3de068f5b038",
@@ -18242,7 +18171,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:13.000Z"
     },
     {
       "id": "f0c1422b-9f44-4513-a1ec-9406c6c9d46c",
@@ -18274,7 +18203,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:13.000Z"
     },
     {
       "id": "d76c99d6-cf3f-42e5-8f19-92ac5782c6fa",
@@ -18306,7 +18235,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:14.000Z"
     },
     {
       "id": "9a0e39d4-43b4-4b69-9e88-0c7f20f5306a",
@@ -18337,28 +18266,95 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:14.000Z"
     },
     {
-      "id": "74241994-f0ff-4a31-9ac4-57fb8821d048",
+      "id": "429c14cb-51f2-4699-9c2f-73bf438ab4f1",
+      "name": "Edit Child.form.textbox",
+      "type": "view",
+      "json": {
+        "id": "429c14cb-51f2-4699-9c2f-73bf438ab4f1",
+        "type": "view",
+        "key": "textbox",
+        "icon": "i-cursor",
+        "name": "Edit Child.form.textbox",
+        "settings": {
+          "type": "single",
+          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "fieldId": "b037e390-7290-47ea-bfef-82b30cd38d79"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Child.form.textbox"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "x": "0",
+          "y": "7"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:38:04.000Z",
+      "updatedAt": "2021-06-17T03:40:14.000Z"
+    },
+    {
+      "id": "47fbde72-2c29-49f6-841b-f28f41c2b55b",
+      "name": "Edit Child.form.selectsingle",
+      "type": "view",
+      "json": {
+        "id": "47fbde72-2c29-49f6-841b-f28f41c2b55b",
+        "type": "view",
+        "key": "selectsingle",
+        "icon": "list-ul",
+        "name": "Edit Child.form.selectsingle",
+        "settings": {
+          "options": [
+            {
+              "id": "Male",
+              "value": "Male",
+              "hex": "#3F51B5"
+            },
+            {
+              "id": "Female",
+              "value": "Female",
+              "hex": "#E91E63"
+            }
+          ],
+          "objectId": "f3e7acfb-f225-4c34-9c7c-72887767e7d4",
+          "fieldId": "5032517e-9771-4133-8108-d2b96a83e4a3"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Child.form.selectsingle"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "x": "0",
+          "y": "8"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:38:06.000Z",
+      "updatedAt": "2021-06-17T03:40:14.000Z"
+    },
+    {
       "name": "Edit Child.form.button",
       "type": "view",
       "json": {
-        "id": "74241994-f0ff-4a31-9ac4-57fb8821d048",
         "type": "view",
         "key": "button",
         "icon": "square",
-        "name": "Edit Child.form.button",
         "settings": {
-          "includeSave": "1",
-          "includeCancel": "1",
-          "includeReset": "1",
-          "isDefault": "true",
-          "saveLabel": "",
-          "cancelLabel": "",
-          "resetLabel": "",
-          "afterCancel": "",
-          "alignment": "right"
+          "includeSave": "true",
+          "includeCancel": "false",
+          "includeReset": "false",
+          "isDefault": "false"
         },
         "translations": [
           {
@@ -18368,14 +18364,14 @@
         ],
         "position": {
           "dx": "1",
-          "dy": "1",
-          "y": "9",
-          "x": "0"
+          "dy": "1"
         },
-        "isRoot": "false"
+        "isRoot": "false",
+        "id": "d3d78e2f-2fb2-44ae-810d-9230e9284151"
       },
-      "createdAt": "2021-02-24T02:31:53.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "id": "d3d78e2f-2fb2-44ae-810d-9230e9284151",
+      "createdAt": "2021-06-17T03:40:18.094Z",
+      "updatedAt": "2021-06-17T03:40:18.094Z"
     },
     {
       "id": "93451dfb-a0cd-4924-888d-34f7b1422b6e",
@@ -18386,6 +18382,7 @@
         "type": "view",
         "key": "menu",
         "icon": "th-large",
+        "name": "Edit Child Info.menu",
         "settings": {
           "columnSpan": "1",
           "rowSpan": "1",
@@ -18431,7 +18428,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-02-24T03:01:14.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:40:04.000Z"
     },
     {
       "id": "08d57509-f81a-456c-9405-f4a9f181d03c",
@@ -21917,7 +21914,6 @@
         ],
         "viewIDs": [
           "615a6b0f-3535-45f6-970f-720ba03320a1",
-          "23d952da-ebac-4d89-8bdd-f951079f5003",
           "89262b63-5068-45bc-9820-d97f0963cdaa",
           "64a2bb97-6ff7-4641-b12c-2181bc54da91",
           "01f8dd1a-5bfb-4047-951d-6a07cf8214e3",
@@ -21926,6 +21922,7 @@
           "422d69a1-7574-454b-9cdb-05779de11f57",
           "005f828a-be76-4f8f-9df6-220009da8260",
           "6362d1d9-5831-4ae5-9346-e54c50d22dc9",
+          "5827741c-1519-49bc-a9d0-86337d9c32c5",
           "53c70a84-ecb9-4fe7-8847-eb6a286ba90b"
         ],
         "position": {
@@ -21937,7 +21934,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:14.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:04.000Z"
     },
     {
       "id": "615a6b0f-3535-45f6-970f-720ba03320a1",
@@ -21969,38 +21966,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
-    },
-    {
-      "id": "23d952da-ebac-4d89-8bdd-f951079f5003",
-      "name": "Edit Spiritual Journey.form.checkbox",
-      "type": "view",
-      "json": {
-        "id": "23d952da-ebac-4d89-8bdd-f951079f5003",
-        "type": "view",
-        "key": "checkbox",
-        "icon": "check-square-o",
-        "name": "Edit Spiritual Journey.form.checkbox",
-        "settings": {
-          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
-          "fieldId": "c32604ef-5bf5-463e-ae99-bb308b36664b"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Edit Spiritual Journey.form.checkbox"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "8",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:03.000Z"
     },
     {
       "id": "89262b63-5068-45bc-9820-d97f0963cdaa",
@@ -22032,7 +21998,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:03.000Z"
     },
     {
       "id": "64a2bb97-6ff7-4641-b12c-2181bc54da91",
@@ -22063,7 +22029,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:03.000Z"
     },
     {
       "id": "01f8dd1a-5bfb-4047-951d-6a07cf8214e3",
@@ -22094,7 +22060,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:03.000Z"
     },
     {
       "id": "f8181f41-2378-4e5f-9ee1-2f9876c13697",
@@ -22125,7 +22091,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:03.000Z"
     },
     {
       "id": "64f34297-acc7-4cdb-a3ac-83c4a7997f93",
@@ -22156,7 +22122,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:04.000Z"
     },
     {
       "id": "422d69a1-7574-454b-9cdb-05779de11f57",
@@ -22187,7 +22153,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:04.000Z"
     },
     {
       "id": "005f828a-be76-4f8f-9df6-220009da8260",
@@ -22218,7 +22184,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:04.000Z"
     },
     {
       "id": "6362d1d9-5831-4ae5-9346-e54c50d22dc9",
@@ -22249,7 +22215,37 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:04.000Z"
+    },
+    {
+      "id": "5827741c-1519-49bc-a9d0-86337d9c32c5",
+      "name": "Edit Spiritual Journey.form.checkbox",
+      "type": "view",
+      "json": {
+        "id": "5827741c-1519-49bc-a9d0-86337d9c32c5",
+        "type": "view",
+        "key": "checkbox",
+        "icon": "check-square-o",
+        "settings": {
+          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
+          "fieldId": "7c9f9f8b-6f2e-4214-b790-29635d5790b2"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Spiritual Journey.form.checkbox"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "x": "0",
+          "y": "8"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T03:34:05.000Z",
+      "updatedAt": "2021-06-17T03:35:04.000Z"
     },
     {
       "id": "53c70a84-ecb9-4fe7-8847-eb6a286ba90b",
@@ -22276,13 +22272,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "11",
+          "y": "10",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T03:35:04.000Z"
     },
     {
       "id": "05fd1636-1052-4594-89e5-f4b3d83bbed5",
