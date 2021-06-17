@@ -6479,16 +6479,15 @@
         "fieldIDs": [
           "69bb3f3e-b88b-496e-864f-13f0012d98d2",
           "6afa96a5-14a4-4a21-b195-37e6896b460a",
-          "237a9206-20cb-45ef-b0eb-d7dcfad17f2e",
           "40ccd126-da96-43e8-be79-ee58b31f0b38",
           "8952d485-f5bf-402a-ba4f-4e0a48d68449",
           "9a21c62a-3d8c-4d4e-91b5-bee8e1bcf763",
           "45672a70-2406-43dd-9e13-82f10d235cc7",
           "bc916574-d63c-438e-930b-5de22b2f4850",
           "42c95612-882b-463c-b6a9-718e1337de6d",
-          "c32604ef-5bf5-463e-ae99-bb308b36664b",
           "85866909-96ea-459a-92ad-505a93876fca",
-          "7c9f9f8b-6f2e-4214-b790-29635d5790b2"
+          "7c9f9f8b-6f2e-4214-b790-29635d5790b2",
+          "a8fde65f-28e0-4ec9-b995-d652511129ea"
         ],
         "createdInAppID": "ab7ab867-549a-498f-a1ff-a9e2f97dd525",
         "objectWorkspaceViews": {
@@ -6511,7 +6510,7 @@
         }
       },
       "createdAt": "2021-03-25T05:10:39.000Z",
-      "updatedAt": "2021-06-17T03:33:32.000Z"
+      "updatedAt": "2021-06-17T07:07:14.000Z"
     },
     {
       "id": "69bb3f3e-b88b-496e-864f-13f0012d98d2",
@@ -6576,35 +6575,6 @@
         "id": "6afa96a5-14a4-4a21-b195-37e6896b460a"
       },
       "createdAt": "2021-03-25T05:16:43.000Z",
-      "updatedAt": "2021-06-04T04:44:34.000Z"
-    },
-    {
-      "id": "237a9206-20cb-45ef-b0eb-d7dcfad17f2e",
-      "name": "EM-Spiritual Journey->Does the child participate in a kids club sponsored by a church or ministry ",
-      "type": "field",
-      "json": {
-        "type": "field",
-        "key": "boolean",
-        "icon": "check-square-o",
-        "isImported": "0",
-        "columnName": "Does the child participate in a kids club sponsored by a church or ministry ",
-        "settings": {
-          "showIcon": 1,
-          "required": 0,
-          "unique": 0,
-          "validationRules": "[]",
-          "default": 0,
-          "width": 810
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Does the child participate in a kids club sponsored by a church or ministry? "
-          }
-        ],
-        "id": "237a9206-20cb-45ef-b0eb-d7dcfad17f2e"
-      },
-      "createdAt": "2021-03-25T05:17:05.000Z",
       "updatedAt": "2021-06-04T04:44:34.000Z"
     },
     {
@@ -6805,35 +6775,6 @@
       "updatedAt": "2021-06-04T04:44:34.000Z"
     },
     {
-      "id": "c32604ef-5bf5-463e-ae99-bb308b36664b",
-      "name": "EM-Spiritual Journey->Does the child help serve in the Church or in the ministry in some way",
-      "type": "field",
-      "json": {
-        "type": "field",
-        "key": "boolean",
-        "icon": "check-square-o",
-        "isImported": "0",
-        "columnName": "Does the child help serve in the Church or in the ministry in some way",
-        "settings": {
-          "showIcon": 1,
-          "required": 0,
-          "unique": 0,
-          "validationRules": "[]",
-          "default": 0,
-          "width": 750
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Does the child help serve in the Church or in the ministry in some way?"
-          }
-        ],
-        "id": "c32604ef-5bf5-463e-ae99-bb308b36664b"
-      },
-      "createdAt": "2021-03-25T05:28:32.000Z",
-      "updatedAt": "2021-06-04T04:44:34.000Z"
-    },
-    {
       "id": "85866909-96ea-459a-92ad-505a93876fca",
       "name": "EM-Spiritual Journey->How do they serve",
       "type": "field",
@@ -6891,6 +6832,35 @@
       "id": "7c9f9f8b-6f2e-4214-b790-29635d5790b2",
       "createdAt": "2021-06-17T03:33:32.743Z",
       "updatedAt": "2021-06-17T03:33:32.743Z"
+    },
+    {
+      "id": "a8fde65f-28e0-4ec9-b995-d652511129ea",
+      "name": "EM-Spiritual Journey->kids club",
+      "type": "field",
+      "json": {
+        "id": "a8fde65f-28e0-4ec9-b995-d652511129ea",
+        "type": "field",
+        "key": "boolean",
+        "icon": "check-square-o",
+        "isImported": "0",
+        "columnName": "kids club",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": 0,
+          "width": 0
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Does the child participate in a kids club sponsored by a church or ministry?"
+          }
+        ]
+      },
+      "createdAt": "2021-06-17T07:07:14.000Z",
+      "updatedAt": "2021-06-17T07:12:34.000Z"
     },
     {
       "id": "44f50fd4-716b-4af1-af25-39cabca41b9f",
@@ -15003,15 +14973,15 @@
         ],
         "viewIDs": [
           "e37d1670-4043-4f74-95a7-b53011d0ecb5",
-          "b49d76d1-6760-42b7-958a-adf9d2817005",
           "de102292-ae0f-40d2-839d-88fb6d3dea9e",
           "caf7b49a-bb56-4e8d-8c45-ef8fd78efa72",
           "de145bf3-b637-4599-a913-ae18cd0882b5",
           "0d768fe3-561d-4bb5-9d83-399152976c92",
           "9dd56bea-5aa3-48e7-a9cc-b801c25de04c",
           "ce0a5ba0-e18d-498d-8896-37d7dd22a47c",
-          "3a8ce696-9234-4acb-9611-fd74f104c4ad",
-          "0133afd4-49f2-41dc-8179-cbc18a3d33a4"
+          "0133afd4-49f2-41dc-8179-cbc18a3d33a4",
+          "b024aa7e-2b49-44eb-a7a1-a818d6c0dfad",
+          "1a3e69f5-50db-4bb3-92c1-b5e57faa8e48"
         ],
         "position": {
           "dx": "1",
@@ -15022,7 +14992,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:17.000Z",
-      "updatedAt": "2021-06-17T03:46:53.000Z"
+      "updatedAt": "2021-06-17T07:08:17.000Z"
     },
     {
       "id": "e37d1670-4043-4f74-95a7-b53011d0ecb5",
@@ -15051,47 +15021,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "10",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:27.000Z"
-    },
-    {
-      "id": "b49d76d1-6760-42b7-958a-adf9d2817005",
-      "name": "Sp Journey.detail.detailcheckbox",
-      "type": "view",
-      "json": {
-        "id": "b49d76d1-6760-42b7-958a-adf9d2817005",
-        "type": "view",
-        "key": "detailcheckbox",
-        "icon": "check-square-o",
-        "name": "Sp Journey.detail.detailcheckbox",
-        "settings": {
-          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
-          "fieldId": "c32604ef-5bf5-463e-ae99-bb308b36664b",
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "labelWidth": "120"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Sp Journey.detail.detailcheckbox"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
           "y": "9",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:27.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "de102292-ae0f-40d2-839d-88fb6d3dea9e",
@@ -15120,13 +15056,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "8",
+          "y": "7",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:27.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "caf7b49a-bb56-4e8d-8c45-ef8fd78efa72",
@@ -15154,13 +15090,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "7",
+          "y": "6",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:27.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "de145bf3-b637-4599-a913-ae18cd0882b5",
@@ -15189,13 +15125,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "6",
+          "y": "5",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:27.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "0d768fe3-561d-4bb5-9d83-399152976c92",
@@ -15223,13 +15159,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "5",
+          "y": "4",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:28.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "9dd56bea-5aa3-48e7-a9cc-b801c25de04c",
@@ -15258,13 +15194,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "4",
+          "y": "3",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:28.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "ce0a5ba0-e18d-498d-8896-37d7dd22a47c",
@@ -15292,47 +15228,13 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "3",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:28.000Z"
-    },
-    {
-      "id": "3a8ce696-9234-4acb-9611-fd74f104c4ad",
-      "name": "Sp Journey.detail.detailcheckbox",
-      "type": "view",
-      "json": {
-        "id": "3a8ce696-9234-4acb-9611-fd74f104c4ad",
-        "type": "view",
-        "key": "detailcheckbox",
-        "icon": "check-square-o",
-        "name": "Sp Journey.detail.detailcheckbox",
-        "settings": {
-          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
-          "fieldId": "237a9206-20cb-45ef-b0eb-d7dcfad17f2e",
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "labelWidth": "120"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Sp Journey.detail.detailcheckbox"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
           "y": "2",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:28.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "0133afd4-49f2-41dc-8179-cbc18a3d33a4",
@@ -15360,13 +15262,79 @@
         "position": {
           "dx": "1",
           "dy": "1",
-          "y": "1",
+          "y": "0",
           "x": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-04-05T05:51:23.000Z",
-      "updatedAt": "2021-06-17T03:46:28.000Z"
+      "updatedAt": "2021-06-17T07:08:16.000Z"
+    },
+    {
+      "id": "b024aa7e-2b49-44eb-a7a1-a818d6c0dfad",
+      "name": "Sp Journey.detail.detailcheckbox",
+      "type": "view",
+      "json": {
+        "id": "b024aa7e-2b49-44eb-a7a1-a818d6c0dfad",
+        "type": "view",
+        "key": "detailcheckbox",
+        "icon": "check-square-o",
+        "settings": {
+          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
+          "fieldId": "7c9f9f8b-6f2e-4214-b790-29635d5790b2",
+          "columnSpan": "1",
+          "rowSpan": "1",
+          "labelWidth": "500"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Sp Journey.detail.detailcheckbox"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "y": "8",
+          "x": "0"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T07:08:05.000Z",
+      "updatedAt": "2021-06-17T07:08:16.000Z"
+    },
+    {
+      "id": "1a3e69f5-50db-4bb3-92c1-b5e57faa8e48",
+      "name": "Sp Journey.detail.detailcheckbox",
+      "type": "view",
+      "json": {
+        "id": "1a3e69f5-50db-4bb3-92c1-b5e57faa8e48",
+        "type": "view",
+        "key": "detailcheckbox",
+        "icon": "check-square-o",
+        "settings": {
+          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
+          "fieldId": "a8fde65f-28e0-4ec9-b995-d652511129ea",
+          "columnSpan": "1",
+          "rowSpan": "1",
+          "labelWidth": "500"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Sp Journey.detail.detailcheckbox"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "y": "1",
+          "x": "0"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T07:08:06.000Z",
+      "updatedAt": "2021-06-17T07:08:16.000Z"
     },
     {
       "id": "75fe90f1-f806-4844-a376-d386612b4569",
@@ -21834,7 +21802,7 @@
         "id": "2d88237e-11f0-47e6-85e8-aa2a7b621bb5",
         "type": "view",
         "key": "page",
-        "icon": "file",
+        "icon": "clone",
         "name": "Edit Spiritual Journey",
         "settings": {
           "columns": "1",
@@ -21843,7 +21811,7 @@
           "gravity": [
             "1"
           ],
-          "type": "page",
+          "type": "popup",
           "popupWidth": "700",
           "popupHeight": "450",
           "pageWidth": "",
@@ -21857,8 +21825,7 @@
           }
         ],
         "viewIDs": [
-          "a3cc3dd8-81ec-44db-8c04-2c998bee60d8",
-          "05fd1636-1052-4594-89e5-f4b3d83bbed5"
+          "a3cc3dd8-81ec-44db-8c04-2c998bee60d8"
         ],
         "position": {
           "dx": "1",
@@ -21868,7 +21835,7 @@
         "myAppID": "ab7ab867-549a-498f-a1ff-a9e2f97dd525"
       },
       "createdAt": "2021-05-07T03:47:39.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T07:11:08.000Z"
     },
     {
       "id": "a3cc3dd8-81ec-44db-8c04-2c998bee60d8",
@@ -21884,7 +21851,7 @@
           "columns": "1",
           "removable": "true",
           "movable": "true",
-          "labelPosition": "left",
+          "labelPosition": "top",
           "showLabel": "1",
           "clearOnLoad": "0",
           "clearOnSave": "0",
@@ -21893,13 +21860,8 @@
           "dataviewID": "caba8eed-ba34-4e57-999c-f232672bad98",
           "submitRules": [
             {
-              "selectedAction": "ABViewRuleActionFormSubmitRuleConfirmMessage",
-              "queryRules": "",
-              "actionSettings": {
-                "valueRules": {
-                  "message": ""
-                }
-              }
+              "selectedAction": "ABViewRuleActionFormSubmitRuleClosePopup",
+              "queryRules": ""
             }
           ],
           "gravity": [
@@ -21920,21 +21882,21 @@
           "f8181f41-2378-4e5f-9ee1-2f9876c13697",
           "64f34297-acc7-4cdb-a3ac-83c4a7997f93",
           "422d69a1-7574-454b-9cdb-05779de11f57",
-          "005f828a-be76-4f8f-9df6-220009da8260",
           "6362d1d9-5831-4ae5-9346-e54c50d22dc9",
           "5827741c-1519-49bc-a9d0-86337d9c32c5",
+          "ccd440ce-22aa-45d2-8d54-a6272495667c",
           "53c70a84-ecb9-4fe7-8847-eb6a286ba90b"
         ],
         "position": {
           "dx": "1",
           "dy": "1",
           "x": "0",
-          "y": "1"
+          "y": "0"
         },
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:14.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "615a6b0f-3535-45f6-970f-720ba03320a1",
@@ -21966,7 +21928,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:03.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "89262b63-5068-45bc-9820-d97f0963cdaa",
@@ -21998,7 +21960,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:03.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "64a2bb97-6ff7-4641-b12c-2181bc54da91",
@@ -22029,7 +21991,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:03.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "01f8dd1a-5bfb-4047-951d-6a07cf8214e3",
@@ -22060,7 +22022,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:03.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "f8181f41-2378-4e5f-9ee1-2f9876c13697",
@@ -22091,7 +22053,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:03.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "64f34297-acc7-4cdb-a3ac-83c4a7997f93",
@@ -22122,7 +22084,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "422d69a1-7574-454b-9cdb-05779de11f57",
@@ -22153,38 +22115,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
-    },
-    {
-      "id": "005f828a-be76-4f8f-9df6-220009da8260",
-      "name": "Edit Spiritual Journey.form.checkbox",
-      "type": "view",
-      "json": {
-        "id": "005f828a-be76-4f8f-9df6-220009da8260",
-        "type": "view",
-        "key": "checkbox",
-        "icon": "check-square-o",
-        "name": "Edit Spiritual Journey.form.checkbox",
-        "settings": {
-          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
-          "fieldId": "237a9206-20cb-45ef-b0eb-d7dcfad17f2e"
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Edit Spiritual Journey.form.checkbox"
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "y": "1",
-          "x": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "6362d1d9-5831-4ae5-9346-e54c50d22dc9",
@@ -22215,7 +22146,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "5827741c-1519-49bc-a9d0-86337d9c32c5",
@@ -22226,6 +22157,7 @@
         "type": "view",
         "key": "checkbox",
         "icon": "check-square-o",
+        "name": "Edit Spiritual Journey.form.checkbox",
         "settings": {
           "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
           "fieldId": "7c9f9f8b-6f2e-4214-b790-29635d5790b2"
@@ -22245,7 +22177,37 @@
         "isRoot": "false"
       },
       "createdAt": "2021-06-17T03:34:05.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
+    },
+    {
+      "id": "ccd440ce-22aa-45d2-8d54-a6272495667c",
+      "name": "Edit Spiritual Journey.form.checkbox",
+      "type": "view",
+      "json": {
+        "id": "ccd440ce-22aa-45d2-8d54-a6272495667c",
+        "type": "view",
+        "key": "checkbox",
+        "icon": "check-square-o",
+        "settings": {
+          "objectId": "ab2e5778-97da-41da-bbc7-e135636890bd",
+          "fieldId": "a8fde65f-28e0-4ec9-b995-d652511129ea"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Spiritual Journey.form.checkbox"
+          }
+        ],
+        "position": {
+          "dx": "1",
+          "dy": "1",
+          "x": "0",
+          "y": "1"
+        },
+        "isRoot": "false"
+      },
+      "createdAt": "2021-06-17T07:08:53.000Z",
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "53c70a84-ecb9-4fe7-8847-eb6a286ba90b",
@@ -22278,65 +22240,7 @@
         "isRoot": "false"
       },
       "createdAt": "2021-05-07T03:49:33.000Z",
-      "updatedAt": "2021-06-17T03:35:04.000Z"
-    },
-    {
-      "id": "05fd1636-1052-4594-89e5-f4b3d83bbed5",
-      "name": "Edit Spiritual Journey.menu",
-      "type": "view",
-      "json": {
-        "id": "05fd1636-1052-4594-89e5-f4b3d83bbed5",
-        "type": "view",
-        "key": "menu",
-        "icon": "th-large",
-        "settings": {
-          "columnSpan": "1",
-          "rowSpan": "1",
-          "orientation": "x",
-          "buttonStyle": "ab-menu-default",
-          "menuAlignment": "ab-menu-right",
-          "menuInToolbar": "1",
-          "menuPadding": "10",
-          "menuTheme": "bg_gray",
-          "menuPosition": "right",
-          "order": [
-            {
-              "parent": "0",
-              "position": "0",
-              "icon": "arrow-left",
-              "type": "tab",
-              "tabId": "6ea3258b-ef85-47b0-b4cc-a44c46313f4b",
-              "pageId": "6e9f40f7-709f-4c13-b37e-7660609170bf",
-              "isChecked": "true",
-              "translations": [
-                {
-                  "language_code": "en",
-                  "label": "Spiritual Journey"
-                }
-              ]
-            }
-          ],
-          "menuTextLeft": ""
-        },
-        "translations": [
-          {
-            "language_code": "en",
-            "label": "Edit Spiritual Journey.menu",
-            "menuTextLeft": "Edit Spiritual Journey",
-            "menuTextCenter": "",
-            "menuTextRight": ""
-          }
-        ],
-        "position": {
-          "dx": "1",
-          "dy": "1",
-          "x": "0",
-          "y": "0"
-        },
-        "isRoot": "false"
-      },
-      "createdAt": "2021-05-25T04:59:46.000Z",
-      "updatedAt": "2021-06-04T04:44:37.000Z"
+      "updatedAt": "2021-06-17T07:10:18.000Z"
     },
     {
       "id": "3da6acd9-4ad7-4d98-a498-89b411c8709f",
